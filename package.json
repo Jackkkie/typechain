@@ -1,0 +1,19 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "Learning Typescript by making a Blockchain with it",
+  "main": "index.js",
+  "repository": "https://github.com/Jackkkie/typechain.git",
+  "author": "kokyoung.kim@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node ./dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^3.0.1"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "typescript": "^3.6.3"
+  }
+}
